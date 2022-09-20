@@ -1,0 +1,114 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/** GOBALES **/
+.fondo-gris {
+    background-color: var(--gris);
+}
+
+.amarillo {
+    background-image: url('../img/linea_horizontal.png');
+}
+
+/* ======================================================== */
+/* ================= PAGINA DE PRINCIPAL ================== */
+/* ======================================================== */
+
+.encabezado {
+    background-color: #13322b;
+    padding: 1rem 1.5rem;
+}
+.encabezado img {
+    width: auto;
+}
+
+.fondo {
+    background-image: url("../img/baner.jpg");
+}
+
+@media (max-width: 800px) {
+    .encabezado img {
+        width: 8rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .encabezado img {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .grande {
+        content: url("../img/baner_chico.jpg");
+    }
+}
+
+.baner {
+    width: 100%;
+}
+
+.card-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.card-body input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.primer-input {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.segundo-input {
+    margin-bottom: 3rem;
+}
+
+.buscar {
+    display: inline-block;
+    border: 2px solid #9d2449;
+    border-radius: .3rem;
+    padding: .5rem 2rem;
+    color: #9d2449;
+    text-decoration: none;
+}
+
+.buscar:active {
+    background-color: #9d2449;
+    display: inline-block;
+    border: 2px solid #9d2449;
+    border-radius: .3rem;
+    padding: .5rem 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.buscar:focus {
+    background-color: #9d2449;
+    display: inline-block;
+    border: 2px solid #9d2449;
+    border-radius: .3rem;
+    padding: .5rem 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.swal2-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.swal2-html-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: left;
+}
+
